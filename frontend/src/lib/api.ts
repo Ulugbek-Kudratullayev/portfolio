@@ -40,6 +40,8 @@ async function fetchPage(url: string): Promise<ApiListResponse> {
   return res.json();
 }
 
+const MAX_PAGES = 10;
+
 export async function fetchProjects(
   options: { featured?: boolean } = {}
 ): Promise<ApiProject[]> {
@@ -47,9 +49,16 @@ export async function fetchProjects(
   if (options.featured) params.set("featured", "true");
   params.set("ordering", "order");
   try {
-    const data = await fetchPage(`${API_URL}/api/projects/?${params}`);
-    if (!data.results?.length) throw new Error("API returned no projects");
-    return data.results;
+    const results: ApiProject[] = [];
+    let url: string | null = `${API_URL}/api/projects/?${params}`;
+    for (let page = 0; url && page < MAX_PAGES; page++) {
+      const data: ApiListResponse & { next?: string | null } =
+        await fetchPage(url);
+      results.push(...(data.results ?? []));
+      url = data.next ?? null;
+    }
+    if (!results.length) throw new Error("API returned no projects");
+    return results;
   } catch {
     const snapshot = fallbackProjects as ApiProject[];
     return options.featured ? snapshot.filter((p) => p.is_featured) : snapshot;
