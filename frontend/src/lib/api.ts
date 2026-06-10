@@ -6,8 +6,12 @@
 
 import fallbackProjects from "@/data/projects-fallback.json";
 
-export const API_URL =
-  process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:8000";
+// trim() also strips a stray BOM (U+FEFF) that env tooling can prepend.
+export const API_URL = (
+  process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:8000"
+)
+  .trim()
+  .replace(/\/+$/, "");
 
 export interface ApiProject {
   slug: string;
