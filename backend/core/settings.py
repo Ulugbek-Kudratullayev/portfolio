@@ -29,6 +29,9 @@ if RAILWAY_PUBLIC_DOMAIN and RAILWAY_PUBLIC_DOMAIN not in ALLOWED_HOSTS:
     ALLOWED_HOSTS.append(RAILWAY_PUBLIC_DOMAIN)
 
 INSTALLED_APPS = [
+    "unfold",
+    "unfold.contrib.filters",
+    "unfold.contrib.forms",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -105,6 +108,66 @@ MEDIA_ROOT = Path(os.environ.get("MEDIA_ROOT", BASE_DIR / "media"))
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # --- Third-party configuration ---------------------------------------------
+
+from django.urls import reverse_lazy  # noqa: E402
+from django.utils.translation import gettext_lazy as _  # noqa: E402
+
+UNFOLD = {
+    "SITE_TITLE": "Bekfolio Admin",
+    "SITE_HEADER": "Bekfolio",
+    "SITE_SUBHEADER": "Portfolio boshqaruv paneli",
+    "SITE_URL": "https://portfolio-ebon-eight-5vvss303xu.vercel.app",
+    "SITE_SYMBOL": "rocket_launch",
+    "SHOW_HISTORY": True,
+    "SHOW_VIEW_ON_SITE": True,
+    "ENVIRONMENT": "portfolio_api.admin_config.environment_callback",
+    "BORDER_RADIUS": "8px",
+    "SIDEBAR": {
+        "show_search": True,
+        "show_all_applications": True,
+        "navigation": [
+            {
+                "title": _("Portfolio"),
+                "separator": True,
+                "collapsible": False,
+                "items": [
+                    {
+                        "title": _("Loyihalar"),
+                        "icon": "deployed_code",
+                        "link": reverse_lazy(
+                            "admin:portfolio_api_project_changelist"
+                        ),
+                    },
+                    {
+                        "title": _("Xabarlar"),
+                        "icon": "mail",
+                        "link": reverse_lazy(
+                            "admin:portfolio_api_contactmessage_changelist"
+                        ),
+                        "badge": "portfolio_api.admin_config.unread_messages_badge",
+                    },
+                ],
+            },
+            {
+                "title": _("Boshqaruv"),
+                "separator": True,
+                "collapsible": True,
+                "items": [
+                    {
+                        "title": _("Foydalanuvchilar"),
+                        "icon": "person",
+                        "link": reverse_lazy("admin:auth_user_changelist"),
+                    },
+                    {
+                        "title": _("Guruhlar"),
+                        "icon": "group",
+                        "link": reverse_lazy("admin:auth_group_changelist"),
+                    },
+                ],
+            },
+        ],
+    },
+}
 
 REST_FRAMEWORK = {
     "DEFAULT_RENDERER_CLASSES": ["rest_framework.renderers.JSONRenderer"],
