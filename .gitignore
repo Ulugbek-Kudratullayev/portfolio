@@ -21,3 +21,5 @@ frontend/.vercel/
 .DS_Store
 Thumbs.db
 .gstack/
+
+ADMIN_CREDENTIALS.txt
