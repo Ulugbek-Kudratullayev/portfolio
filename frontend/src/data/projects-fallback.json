@@ -1,0 +1,2183 @@
+[
+  {
+    "slug": "tavsiya-tizimi",
+    "title": "Product Recommendation System",
+    "category": "BMI (diplom ishi)",
+    "platform": "web",
+    "description_en": "A personalized product recommendation engine for e-commerce built on collaborative filtering. Implements 6 algorithms (User-Based CF, Item-Based CF, SVD, content-based TF-IDF, hybrid and popularity) over 10,000+ real products from Uzum.uz, with JWT auth, an admin panel and Swagger API docs.",
+    "description_uz": "Collaborative Filtering asosida internet-do'kon uchun shaxsiylashtirilgan mahsulot tavsiya tizimi. 6 ta tavsiya algoritmi va 10 000+ real Uzum.uz mahsuloti.",
+    "tech_stack": [
+      "django",
+      "react",
+      "tailwind",
+      "postgres",
+      "sklearn",
+      "css",
+      "vite"
+    ],
+    "tech_stack_raw": "Django 5, DRF, React 18, Vite, Tailwind CSS, PostgreSQL, NumPy, pandas, scikit-learn",
+    "features": [
+      "User-Based va Item-Based CF",
+      "SVD",
+      "Content-Based TF-IDF",
+      "gibrid algoritm",
+      "JWT autentifikatsiya",
+      "admin panel",
+      "Swagger API docs"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": true,
+    "order": 1
+  },
+  {
+    "slug": "e-library",
+    "title": "E-Library — Protected Digital Library",
+    "category": "BMI (diplom ishi)",
+    "platform": "web",
+    "description_en": "A university digital library where students read books strictly online: per-user PDF watermarking, blocked downloads/printing, a 6-role access system, reading activity logs and a statistics dashboard in 4 languages.",
+    "description_uz": "Universitet talabalari uchun himoyalangan elektron kutubxona: kitoblarni faqat online o'qish, per-user PDF watermark va o'qish statistikasi dashboardi.",
+    "tech_stack": [
+      "django",
+      "react",
+      "tailwind",
+      "postgres",
+      "css",
+      "vite",
+      "chartjs"
+    ],
+    "tech_stack_raw": "Django 5, DRF, SimpleJWT, React 18, Vite, Tailwind CSS, PostgreSQL, Pillow, poppler, Recharts",
+    "features": [
+      "Himoyalangan PDF reader (watermark",
+      "yuklab olib bo'lmaydi)",
+      "6 ta rol",
+      "kitob qidiruv va filtrlash",
+      "o'qish loglari",
+      "statistika",
+      "4 tilli interfeys"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": true,
+    "order": 2
+  },
+  {
+    "slug": "edubmi-ielts-mock-test-platform",
+    "title": "EduBMI — IELTS Mock Test Platform",
+    "category": "BMI (diplom ishi)",
+    "platform": "web",
+    "description_en": "A full-stack IELTS Academic simulation platform with Listening, Reading and Writing modules: 40-question tests, automatic band scoring, passage highlighting, audio playback and teacher grading workflows.",
+    "description_uz": "IELTS Academic imtihonini simulyatsiya qiluvchi full-stack web platforma. Listening, Reading, Writing modullari, 40 savollik testlar va avtomatik/o'qituvchi baholash.",
+    "tech_stack": [
+      "django",
+      "react",
+      "tailwind",
+      "postgres",
+      "css",
+      "vite"
+    ],
+    "tech_stack_raw": "Django 5, Django REST Framework, React 19, Vite, Tailwind CSS 4, PostgreSQL, SimpleJWT, edge-tts",
+    "features": [
+      "IELTS imtihon simulyatsiyasi",
+      "avtomatik band scoring",
+      "reading passage highlighter",
+      "listening audio",
+      "writing word counter",
+      "o'qituvchi baholashi"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": true,
+    "order": 3
+  },
+  {
+    "slug": "ecomonitor",
+    "title": "EcoMonitor — Community Environmental Monitoring",
+    "category": "BMI (diplom ishi)",
+    "platform": "web",
+    "description_en": "A civic platform where citizens report environmental problems (waste, air/water pollution, tree cutting) with photos and location. Reports appear on an interactive map, moderators review them and statuses are tracked with rich statistics.",
+    "description_uz": "Fuqarolar ekologik muammolarni (chiqindi, havo/suv ifloslanishi, daraxt kesilishi) rasm va lokatsiya bilan yuboradigan, ular interaktiv xaritada ko'rsatiladi va moderatorlar ko'rib chiqadigan web platforma.",
+    "tech_stack": [
+      "django",
+      "react",
+      "tailwind",
+      "postgres",
+      "css",
+      "vite",
+      "leaflet",
+      "chartjs"
+    ],
+    "tech_stack_raw": "Django, Django REST Framework, React, Vite, Tailwind CSS, Leaflet.js, PostgreSQL, Chart.js",
+    "features": [
+      "Ekologik muammolarni rasm bilan yuborish",
+      "interaktiv xarita",
+      "moderatsiya tizimi",
+      "status kuzatish",
+      "grafiklar",
+      "statistika"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": true,
+    "order": 4
+  },
+  {
+    "slug": "fermerlar-maktabi",
+    "title": "Farmers' School — E-Learning Platform",
+    "category": "BMI (diplom ishi)",
+    "platform": "web",
+    "description_en": "A distance-learning platform for farmers covering agriculture, livestock and greenhouse technology: role-based cabinets, courses and lessons, auto-graded tests, PDF certificates, news, a forum and weather data.",
+    "description_uz": "Fermerlar uchun masofaviy ta'lim platformasi. Qishloq xo'jaligi, chorvachilik, bog'dorchilik, issiqxona kurslari, testlar va elektron sertifikatlar.",
+    "tech_stack": [
+      "django",
+      "bootstrap",
+      "postgres"
+    ],
+    "tech_stack_raw": "Django 5, PostgreSQL, Bootstrap 5, Railway, ReportLab, Open-Meteo API",
+    "features": [
+      "Rolga asoslangan kabinet",
+      "kurslar va darslar",
+      "testlar va avtomatik baholash",
+      "PDF sertifikatlar",
+      "yangiliklar va forum",
+      "ob-havo",
+      "statistika"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": true,
+    "order": 5
+  },
+  {
+    "slug": "masters-uz",
+    "title": "Masters UZ — Beauty Booking Platform",
+    "category": "Web + Mobil platforma",
+    "platform": "fullstack",
+    "description_en": "A web + mobile platform for finding beauty professionals in Uzbekistan and booking them online. Masters manage profiles, portfolios, certificates and finances through a Flutter app; clients browse and book on the web.",
+    "description_uz": "O'zbekistondagi go'zallik ustalarini topish va onlayn yozilish platformasi (Masterlar APP'ning rivojlantirilgan versiyasi).",
+    "tech_stack": [
+      "django",
+      "flutter",
+      "js",
+      "mysql",
+      "vite"
+    ],
+    "tech_stack_raw": "Django 5.2, DRF, JWT, Vite, Vanilla JS, Flutter 3.x, MySQL, Railway",
+    "features": [
+      "Usta profili",
+      "onlayn booking",
+      "portfolio boshqaruvi",
+      "sertifikatlar",
+      "sharhlar",
+      "moliyaviy hisobot",
+      "obunalar"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": true,
+    "order": 6
+  },
+  {
+    "slug": "shifo-radar",
+    "title": "Shifo Radar — Hospital Bed Tracker",
+    "category": "Web + Mobil platforma",
+    "platform": "fullstack",
+    "description_en": "A real-time hospital bed availability platform consisting of a Django backend, web frontend and Flutter mobile app, with OneID authentication, QR-code lookups and live statistics dashboards.",
+    "description_uz": "Shifoxonalardagi bo'sh to'shaklar mavjudligini real vaqtda kuzatuvchi platforma: backend, frontend va mobil ilovadan iborat, OneID autentifikatsiya bilan.",
+    "tech_stack": [
+      "django",
+      "react",
+      "flutter",
+      "postgres",
+      "docker"
+    ],
+    "tech_stack_raw": "Django 5.0, DRF, React, Flutter, OneID auth, PostgreSQL, Docker",
+    "features": [
+      "To'shak mavjudligi kuzatuvi",
+      "QR kod orqali qidirish",
+      "real-time yangilanish",
+      "statistika dashboard",
+      "multi-platform"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": true,
+    "order": 7
+  },
+  {
+    "slug": "siem-platform",
+    "title": "SIEM Platform — Security Monitoring",
+    "category": "Web platforma / Kiberxavfsizlik",
+    "platform": "web",
+    "description_en": "An enterprise-grade Security Information and Event Management system: log collection, 8-tier threat detection, real-time alerts, RBAC, incident management and Telegram notifications.",
+    "description_uz": "Korxona darajasidagi xavfsizlik monitoring tizimi (SIEM): log yig'ish, tahdid aniqlash, real-time ogohlantirish va RBAC.",
+    "tech_stack": [
+      "fastapi",
+      "python",
+      "postgres",
+      "sqlite",
+      "redis",
+      "telegram",
+      "chartjs"
+    ],
+    "tech_stack_raw": "FastAPI, Python 3.11+, SQLAlchemy 2.0+, PostgreSQL/SQLite, Redis, Telegram Bot, Jinja2, Chart.js",
+    "features": [
+      "Log yig'ish",
+      "8 darajali tahdid aniqlash",
+      "real-time ogohlantirishlar",
+      "RBAC rollar",
+      "dashboard analitika",
+      "insident boshqaruvi",
+      "Telegram xabarnomalar"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": true,
+    "order": 8
+  },
+  {
+    "slug": "aqllidavomat-yuzni-tanish-orqali-davomat",
+    "title": "AqlliDavomat — Face Recognition Attendance",
+    "category": "AI/ML",
+    "platform": "web",
+    "description_en": "An automatic student attendance system powered by face recognition: real-time monitoring, attendance journals, group management, statistics and alerts, built with Django, React and OpenCV.",
+    "description_uz": "Yuzni tanish texnologiyasi orqali o'quvchilar davomatini avtomatik aniqlovchi, tahlil qiluvchi va shaffoflashtiruvchi tizim.",
+    "tech_stack": [
+      "django",
+      "react",
+      "python",
+      "tailwind",
+      "sqlite",
+      "opencv",
+      "css",
+      "vite"
+    ],
+    "tech_stack_raw": "Python 3.10+, Django 5.x, React 18, Vite, OpenCV, face_recognition, Tailwind CSS, SQLite",
+    "features": [
+      "Yuz tanish",
+      "davomat jurnali",
+      "statistika",
+      "yo'nalish/kurs boshqaruvi",
+      "real-time monitoring",
+      "ogohlantirish"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": true,
+    "order": 9
+  },
+  {
+    "slug": "myramadan",
+    "title": "MyRamadan — Ramadan Companion App",
+    "category": "Mobil ilova",
+    "platform": "mobile",
+    "description_en": "A feature-complete Flutter app for Ramadan: precise suhoor/iftar times with GPS city detection, smart notifications, fasting and water tracking, Quran reading plans, daily tasks and duas — fully offline.",
+    "description_uz": "Ramazon oyida ro'za tutuvchilar uchun to'liq funksional Flutter ilovasi: aniq saharlik/iftorlik vaqtlari, aqlli eslatmalar va ro'za kuzatuvi.",
+    "tech_stack": [
+      "flutter"
+    ],
+    "tech_stack_raw": "Flutter 3.x, Dart 3.x, Provider, Hive, flutter_local_notifications, Geolocator, fl_chart",
+    "features": [
+      "GPS orqali shahar aniqlash",
+      "aqlli bildirishnomalar",
+      "ro'za va suv kuzatuvi",
+      "Qur'on xatmi",
+      "kunlik vazifalar",
+      "duo va zikrlar",
+      "DND rejimi"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": true,
+    "order": 10
+  },
+  {
+    "slug": "3d-store",
+    "title": "3D Store",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "3D vizualizatsiyali zamonaviy e-commerce platforma: mahsulotlarni brauzerda real vaqtda 3D ko'rish, aylantirish, rang va material tanlash.",
+    "tech_stack": [
+      "django",
+      "react",
+      "postgres",
+      "docker",
+      "three"
+    ],
+    "tech_stack_raw": "Django REST Framework, React 19, Three.js, Zustand, PostgreSQL, Docker, Stripe",
+    "features": [
+      "Real-time 3D mahsulot viewer",
+      "dinamik narx hisoblash",
+      "JWT autentifikatsiya",
+      "savatcha va buyurtma",
+      "Stripe to'lov",
+      "admin panel"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "ai-agent-windows-uchun-aqlli-yordamchi",
+    "title": "AI Agent — Windows uchun Aqlli Yordamchi",
+    "category": "Desktop / AI",
+    "platform": "desktop",
+    "description_en": "",
+    "description_uz": "Windows kompyuterida vazifalarni o'zbek tilidagi buyruqlar orqali bajaruvchi AI agent: onlayn (OpenAI) va oflayn (qoida asosli) rejimlar.",
+    "tech_stack": [
+      "python",
+      "sqlite",
+      "openai"
+    ],
+    "tech_stack_raw": "Python 3.11+, Pydantic, OpenAI API, SQLite",
+    "features": [
+      "O'zbek tilida interfeys",
+      "dasturlarni ochish",
+      "fayl operatsiyalari",
+      "shell buyruqlari",
+      "xavfsizlik nazorati",
+      "xotira"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "ai-analytics-saas",
+    "title": "AI Analytics SaaS",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Kichik va o'rta bizneslar uchun AI asosidagi analitika platformasi: trendlarni bashorat qilish, mijoz xatti-harakati tahlili va AI tavsiyalar.",
+    "tech_stack": [
+      "fastapi",
+      "react",
+      "ts",
+      "postgres",
+      "mongo",
+      "redis",
+      "sklearn",
+      "openai"
+    ],
+    "tech_stack_raw": "FastAPI, React, TypeScript, PostgreSQL, MongoDB, Redis, OpenAI, Prophet, XGBoost",
+    "features": [
+      "Real-time dashboard",
+      "revenue forecasting",
+      "mijozlarni segmentlash",
+      "churn prediction",
+      "anomaliya aniqlash",
+      "AI Advisor chat",
+      "RBAC"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "ai-fleet-intelligence-transport-nazorati",
+    "title": "AI Fleet Intelligence — Transport Nazorati",
+    "category": "Hackathon loyihasi",
+    "platform": "fullstack",
+    "description_en": "",
+    "description_uz": "Toshkent transporti nazorati uchun AI fleet intelligence platformasi: FastAPI backend, Next.js dashboard va Flutter mobil ilova.",
+    "tech_stack": [
+      "fastapi",
+      "next",
+      "flutter",
+      "python",
+      "docker"
+    ],
+    "tech_stack_raw": "FastAPI, Next.js, Flutter, Python, Docker",
+    "features": [
+      "Fleet management",
+      "transport monitoring",
+      "AI analitika",
+      "real-time dashboard",
+      "REST API"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "bmi-generator-claude-code-skill",
+    "title": "BMI Generator — Claude Code Skill",
+    "category": "Claude Code skill",
+    "platform": "cli",
+    "description_en": "",
+    "description_uz": "FDU standartiga mos Bitiruv Malakaviy Ishi (.docx) hujjatini avtomatik yaratuvchi o'zbek tilidagi akademik hujjat generatori.",
+    "tech_stack": [
+      "python"
+    ],
+    "tech_stack_raw": "Python, python-docx, matplotlib, Playwright",
+    "features": [
+      "DOCX generatsiya",
+      "70-80 sahifa",
+      "15 ta diagramma",
+      "avtomatik mundarija va snoskalar",
+      "glossariy",
+      "adabiyotlar ro'yxati"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "babygrowth-bolalar-rivojlanishi-monitoringi",
+    "title": "BabyGrowth — Bolalar Rivojlanishi Monitoringi",
+    "category": "Mobil ilova",
+    "platform": "mobile",
+    "description_en": "",
+    "description_uz": "WHO standartlari asosida bolalarning jismoniy rivojlanishini (vazn, bo'y, BMI) kuzatish va Gompertz matematik modeli orqali prognoz qilish ilovasi.",
+    "tech_stack": [
+      "flutter",
+      "sqlite"
+    ],
+    "tech_stack_raw": "Flutter 3.27+, Dart 3.6+, Riverpod, Drift (SQLite), GoRouter, FL Chart, PDF, Secure Storage",
+    "features": [
+      "Bir nechta bola profili",
+      "Z-score va persentil hisoblash",
+      "Gompertz prognozi",
+      "oziqlantirish kalkulyatori",
+      "emlash taqvimi",
+      "PDF hisobotlar",
+      "offline-first"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "bank-dasturi-bank-boshqaruv-tizimi",
+    "title": "Bank Dasturi — Bank Boshqaruv Tizimi",
+    "category": "Desktop / O'quv loyihasi",
+    "platform": "desktop",
+    "description_en": "",
+    "description_uz": "Python va CustomTkinter yordamida yaratilgan desktop bank boshqaruv tizimi, OOP prinsiplariga asoslangan.",
+    "tech_stack": [
+      "python"
+    ],
+    "tech_stack_raw": "Python 3.8+, CustomTkinter, JSON, PyInstaller",
+    "features": [
+      "Mijozlarni boshqarish",
+      "hisob ochish",
+      "pul operatsiyalari",
+      "tranzaksiyalar tarixi",
+      "hisobotlar va statistika"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "bank-tizimi-oop-loyihasi",
+    "title": "Bank Tizimi — OOP Loyihasi",
+    "category": "Desktop / O'quv loyihasi",
+    "platform": "desktop",
+    "description_en": "",
+    "description_uz": "Python OOP tamoyillarini bank tizimi misolida ko'rsatuvchi loyiha, Tkinter GUI va konsol interfeyslari bilan.",
+    "tech_stack": [
+      "python"
+    ],
+    "tech_stack_raw": "Python 3.9+, Tkinter, Decimal, dataclasses, threading, logging",
+    "features": [
+      "Mijoz qo'shish",
+      "hisob ochish",
+      "depozit/yechish/o'tkazma",
+      "tranzaksiyalar tarixi",
+      "thread-safe operatsiyalar"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "bito-menu",
+    "title": "Bito Menu",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Restoran uchun raqamli menyu va buyurtma tizimi.",
+    "tech_stack": [
+      "react",
+      "js",
+      "bootstrap",
+      "css",
+      "vite"
+    ],
+    "tech_stack_raw": "React, Vite, JavaScript, CSS, Bootstrap Icons",
+    "features": [
+      "Raqamli menyu",
+      "buyurtma boshqaruvi",
+      "responsive dizayn"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "brutalist-portfolio",
+    "title": "Brutalist Portfolio",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Brutalist dizayn estetikasidagi shaxsiy portfolio veb-sayt: Next.js frontend va Django backend bilan.",
+    "tech_stack": [
+      "django",
+      "next",
+      "ts",
+      "tailwind",
+      "mysql",
+      "css"
+    ],
+    "tech_stack_raw": "Next.js 15, Tailwind CSS, Django 5, DRF, MySQL, TypeScript",
+    "features": [
+      "Brutalist dizayn",
+      "3 tilli (UZ/EN/RU)",
+      "responsive",
+      "blog CMS",
+      "testimonials",
+      "SEO optimizatsiya"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "buffer-overflow-protection",
+    "title": "Buffer Overflow Protection",
+    "category": "Kurs ishi / Kiberxavfsizlik",
+    "platform": "desktop",
+    "description_en": "",
+    "description_uz": "Buffer overflow xavfsizlik mexanizmlarini tadqiq qiluvchi va namoyish etuvchi o'zbek tilidagi Tkinter GUI ilovasi.",
+    "tech_stack": [
+      "python"
+    ],
+    "tech_stack_raw": "Python 3.6+, Tkinter, regex",
+    "features": [
+      "Buffer overflow simulyatsiyasi",
+      "input validation",
+      "bounds checking",
+      "memory protection",
+      "security logging"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "cv-builder",
+    "title": "CV Builder",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "CV'ni ko'rish, tahrirlash va PDF formatda yuklab olish imkonini beruvchi web ilova, Vercel'ga optimallashtirilgan.",
+    "tech_stack": [
+      "js",
+      "node",
+      "html",
+      "css"
+    ],
+    "tech_stack_raw": "HTML5, CSS3, JavaScript, Vercel Functions, Node.js",
+    "features": [
+      "CV ko'rish va tahrirlash",
+      "PDF yuklab olish",
+      "responsive dizayn",
+      "serverless backend",
+      "A4 format"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "clap-detection",
+    "title": "Clap Detection",
+    "category": "AI/ML",
+    "platform": "cli",
+    "description_en": "",
+    "description_uz": "Audio signallarni (qarsak va boshqa tovushlar) tasniflash uchun CNN asosidagi machine learning modeli.",
+    "tech_stack": [
+      "python",
+      "opencv",
+      "pytorch"
+    ],
+    "tech_stack_raw": "Python, PyTorch, OpenCV, MelSpectrogram, CNN",
+    "features": [
+      "Real-time audio tasnifi",
+      "MelSpectrogram preprocessing",
+      "pretrained model",
+      "binary classification"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "coldrecovery-bemor-harorati-prognozi",
+    "title": "ColdRecovery — Bemor Harorati Prognozi",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Nyutonning sovish qonuni va farmakokinetik model orqali bemor tana harorati normaga qachon tushishini hisoblovchi veb-ilova.",
+    "tech_stack": [
+      "django",
+      "react",
+      "postgres",
+      "redis",
+      "vite"
+    ],
+    "tech_stack_raw": "React 18, Vite, Django 5, DRF, PostgreSQL 16, Redis 7, NumPy, SciPy, JWT",
+    "features": [
+      "Matematik prognoz",
+      "dori koeffitsiyentlari",
+      "Bayesian kalibratsiya",
+      "ODE yechimi (RK45)",
+      "API docs",
+      "PWA"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "correctcheck-matematik-yechimlarni-tekshirish",
+    "title": "CorrectCheck — Matematik Yechimlarni Tekshirish",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Talabalar va o'qituvchilar uchun matematik yechimlarni bosqichma-bosqich tahlil qilib, xato qilingan qadamni aniqlovchi tizim.",
+    "tech_stack": [
+      "django",
+      "bootstrap",
+      "sqlite",
+      "chartjs"
+    ],
+    "tech_stack_raw": "Django, Bootstrap 5, SymPy, MathJax, Chart.js, SQLite",
+    "features": [
+      "Algebraik ifodalar",
+      "tenglamalar",
+      "hosila",
+      "integral",
+      "differensial tenglamalar",
+      "soddalashtirish",
+      "grafik chizish",
+      "xato analizi"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "creditsmart-kredit-va-ipoteka-kalkulyatori",
+    "title": "CreditSmart — Kredit va Ipoteka Kalkulyatori",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Kredit va ipoteka hisob-kitoblarini matematik formulalar asosida hisoblab, amortizatsiya jadvali va banklar taqqoslashini beruvchi fintech platforma.",
+    "tech_stack": [
+      "django",
+      "python",
+      "bootstrap",
+      "sqlite",
+      "chartjs"
+    ],
+    "tech_stack_raw": "Python 3.11, Django 5.0, Bootstrap 5.3, Chart.js, SQLite, WhiteNoise, Gunicorn",
+    "features": [
+      "Annuitet/differensial hisoblash",
+      "amortizatsiya jadvali",
+      "interaktiv grafiklar",
+      "banklar taqqoslashi",
+      "dark tema",
+      "chop etish"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "doomscrolling-blocker",
+    "title": "Doomscrolling Blocker",
+    "category": "Desktop / AI",
+    "platform": "desktop",
+    "description_en": "",
+    "description_uz": "YOLO AI yordamida telefon ishlatishni aniqlab, talabalarni fokusda ushlab turuvchi Python dasturi.",
+    "tech_stack": [
+      "flask",
+      "python",
+      "sqlite",
+      "opencv",
+      "pytorch"
+    ],
+    "tech_stack_raw": "Python 3.8+, OpenCV, YOLO, Flask, SQLite, dlib",
+    "features": [
+      "Telefon deteksiyasi",
+      "yuz tanish",
+      "audio ogohlantirish",
+      "Pomodoro timer",
+      "Focus Mode",
+      "statistika dashboard"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "eco-logistic",
+    "title": "Eco Logistic",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Ekologik logistika va tashish boshqaruvi tizimi frontend ilovasi.",
+    "tech_stack": [
+      "react",
+      "js",
+      "css",
+      "vite"
+    ],
+    "tech_stack_raw": "React, Vite, JavaScript, CSS",
+    "features": [
+      "Logistika boshqaruvi",
+      "tashish kuzatuvi",
+      "marshrut ko'rish"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "ecodaily",
+    "title": "EcoDaily",
+    "category": "Mobil ilova",
+    "platform": "mobile",
+    "description_en": "",
+    "description_uz": "Ekologik odatlarni kuzatish uchun Flutter mobil ilovasi, FastAPI backend va Telegram autentifikatsiyasi bilan.",
+    "tech_stack": [
+      "fastapi",
+      "flutter",
+      "postgres",
+      "telegram"
+    ],
+    "tech_stack_raw": "Flutter 3.x, FastAPI, PostgreSQL, Telegram API, JWT",
+    "features": [
+      "Eco-habit tracking",
+      "Telegram login",
+      "AI vazifa tavsiyalari",
+      "ob-havo integratsiyasi",
+      "ballar tizimi",
+      "progress dashboard"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "educheck-lovable",
+    "title": "EduCheck (Lovable)",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Lovable.dev yordamida yaratilgan ta'lim boshqaruv ilovasi, React va shadcn-ui bilan.",
+    "tech_stack": [
+      "react",
+      "ts",
+      "tailwind",
+      "css",
+      "vite"
+    ],
+    "tech_stack_raw": "Vite, TypeScript, React 18, shadcn-ui, Tailwind CSS",
+    "features": [
+      "Zamonaviy UI",
+      "responsive dizayn",
+      "type-safe development",
+      "komponentli arxitektura"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "educheck-mobil",
+    "title": "EduCheck (Mobil)",
+    "category": "Mobil ilova",
+    "platform": "mobile",
+    "description_en": "",
+    "description_uz": "Ta'lim tekshiruvi va baho boshqaruvi uchun Flutter mobil ilovasi.",
+    "tech_stack": [
+      "flutter"
+    ],
+    "tech_stack_raw": "Flutter 3.x, Dart 3.x, Material Design 3",
+    "features": [
+      "Ta'lim tekshiruvi",
+      "baho boshqaruvi",
+      "o'quvchi statistikasi"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "educheck-talim-boshqaruv-platformasi-web",
+    "title": "EduCheck — Ta'lim Boshqaruv Platformasi (Web)",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Sof HTML5, CSS3 va Vanilla JavaScript bilan yaratilgan mobile-first ta'lim boshqaruv platformasi, PWA qo'llab-quvvatlash bilan.",
+    "tech_stack": [
+      "js",
+      "html",
+      "css"
+    ],
+    "tech_stack_raw": "HTML5, CSS3, Vanilla JavaScript, localStorage",
+    "features": [
+      "Dashboard",
+      "test boshqaruvi",
+      "o'quvchi boshqaruvi",
+      "analitika",
+      "dark mode",
+      "offline ishlash"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "edupredict-ai",
+    "title": "EduPredict AI",
+    "category": "AI/ML",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "O'qituvchilar uchun talabalar yakuniy bahosini bashorat qiluvchi machine learning asosidagi Django + React platforma.",
+    "tech_stack": [
+      "django",
+      "react",
+      "python",
+      "tailwind",
+      "sklearn",
+      "css",
+      "vite"
+    ],
+    "tech_stack_raw": "Django 4.2+, Python 3.10+, scikit-learn, XGBoost, React 18+, Vite, Tailwind CSS, pandas, numpy",
+    "features": [
+      "CSV/Excel yuklash",
+      "avtomatik ML pipeline",
+      "regressiya va klassifikatsiya",
+      "model saqlash",
+      "REST API"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "energysave-elektr-energiyasi-tahlili",
+    "title": "EnergySave — Elektr Energiyasi Tahlili",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Uy qurilmalarining elektr sarfini tahlil qilish, eng ko'p sarflaydigan qurilmani aniqlash va oylik xarajatni prognoz qilish platformasi.",
+    "tech_stack": [
+      "django",
+      "bootstrap",
+      "sqlite",
+      "chartjs"
+    ],
+    "tech_stack_raw": "Django 5.1, Bootstrap 5, Chart.js, SQLite",
+    "features": [
+      "Qurilmalar CRUD",
+      "kunlik/oylik sarf hisoblash",
+      "tarif kalkulyatori",
+      "energiya tejash tavsiyalari",
+      "grafiklar"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "facecheck-crm",
+    "title": "FaceCheck CRM",
+    "category": "AI/ML",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Yuzni tanish asosida o'quvchilar davomatini avtomatik aniqlovchi Django va OpenCV tizimi, ota-ona va o'quvchi panellari bilan.",
+    "tech_stack": [
+      "django",
+      "python",
+      "tailwind",
+      "postgres",
+      "opencv",
+      "css",
+      "chartjs"
+    ],
+    "tech_stack_raw": "Python, Django, OpenCV, face_recognition, PostgreSQL, Tailwind CSS, Chart.js",
+    "features": [
+      "Yuzni avtomatik tanish",
+      "davomat tahlili",
+      "statistika",
+      "guruh boshqaruvi",
+      "ota-ona paneli",
+      "ogohlantirishlar"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "financebek-moliyaviy-boshqaruv-ilovasi",
+    "title": "FinanceBek — Moliyaviy Boshqaruv Ilovasi",
+    "category": "Mobil ilova",
+    "platform": "mobile",
+    "description_en": "",
+    "description_uz": "Flutter va Django asosidagi shaxsiy moliya boshqaruvi ilovasi: tranzaksiyalar, qarzlar va byudjet rejalashtirish.",
+    "tech_stack": [
+      "django",
+      "flutter",
+      "postgres",
+      "sqlite"
+    ],
+    "tech_stack_raw": "Flutter 3.10+, Django 4.2+, DRF, SQLite/PostgreSQL, JWT, Provider, fl_chart",
+    "features": [
+      "Tranzaksiyalar boshqaruvi",
+      "kategoriyalash",
+      "qarzlar boshqaruvi",
+      "hisobotlar va grafiklar",
+      "byudjet rejalashtirish"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "freshfood-oziq-ovqat-saqlash-kalkulyatori",
+    "title": "FreshFood — Oziq-ovqat Saqlash Kalkulyatori",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Arrenius tenglamasi va kinetik model asosida restoran mahsulot partiyalarining qolgan sifat darajasini real vaqtda hisoblovchi SaaS platforma.",
+    "tech_stack": [
+      "django",
+      "react",
+      "tailwind",
+      "postgres",
+      "redis",
+      "celery",
+      "css",
+      "vite"
+    ],
+    "tech_stack_raw": "Django 5, DRF, SimpleJWT, React 18, Vite, PostgreSQL 15, NumPy, SciPy, Celery, Redis, Tailwind CSS",
+    "features": [
+      "Mahsulot shablonlari",
+      "partiya CRUD",
+      "consume/waste tracking",
+      "sensor data",
+      "Arrenius modeli",
+      "Monte-Carlo",
+      "FIFO",
+      "dashboard",
+      "ogohlantirishlar"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "helmet-detection",
+    "title": "Helmet Detection",
+    "category": "AI/ML",
+    "platform": "cli",
+    "description_en": "",
+    "description_uz": "YOLOv8 real-time object detection yordamida himoya qalpog'ini (kaska) aniqlovchi tizim — qurilish maydonlarida xavfsizlik monitoringi uchun.",
+    "tech_stack": [
+      "python",
+      "opencv",
+      "pytorch"
+    ],
+    "tech_stack_raw": "Python, YOLOv8 (Ultralytics), PyTorch, OpenCV",
+    "features": [
+      "Real-time kaska aniqlash",
+      "video/rasm inference",
+      "bounding box vizualizatsiya",
+      "pretrained weights"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "hotel-check-qr-kod-royxatga-olish",
+    "title": "Hotel Check — QR-kod Ro'yxatga Olish",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Mehmonlarni ro'yxatga olish, QR-kod orqali tasdiqlash va public verify sahifasi bilan mehmonxona boshqaruv tizimi.",
+    "tech_stack": [
+      "django",
+      "react",
+      "ts",
+      "tailwind",
+      "css",
+      "vite"
+    ],
+    "tech_stack_raw": "Django 5, DRF, JWT, React 18, Vite, TypeScript, Tailwind CSS, ReportLab, qrcode",
+    "features": [
+      "Mehmon ma'lumotlari CRUD",
+      "QR/PDF generatsiya",
+      "public verify endpoint",
+      "admin panel",
+      "milodiy/hijriy sana",
+      "soft delete"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "imrad-skill-ilmiy-maqola-generatori",
+    "title": "IMRAD Skill — Ilmiy Maqola Generatori",
+    "category": "Claude Code skill",
+    "platform": "cli",
+    "description_en": "",
+    "description_uz": "Claude Code uchun IMRAD strukturasidagi ilmiy maqolani o'zbek tilida .md va .docx formatda avtomatik yaratuvchi skill.",
+    "tech_stack": [
+      "python"
+    ],
+    "tech_stack_raw": "Claude Code Skill, Python, python-docx, matplotlib",
+    "features": [
+      "IMRAD standartiga mos maqola",
+      ".md va .docx eksport",
+      "Times New Roman 14pt format",
+      "UZ/EN annotatsiya",
+      "adabiyotlar ro'yxati",
+      "diagrammalar"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "infectiontracker-kasallik-tarqalishi-prognozi",
+    "title": "InfectionTracker — Kasallik Tarqalishi Prognozi",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Logistik o'sish modeli asosida 30 kunlik yuqumli kasallik prognozi va karantin tavsiyalarini beruvchi full-stack veb-ilova.",
+    "tech_stack": [
+      "react",
+      "ts",
+      "tailwind",
+      "postgres",
+      "node",
+      "express",
+      "prisma",
+      "css",
+      "vite",
+      "chartjs"
+    ],
+    "tech_stack_raw": "React 18, Vite, TypeScript, Tailwind CSS, Node.js 20+, Express 4, Prisma 5, PostgreSQL, Recharts, TanStack Query, Zustand",
+    "features": [
+      "Differensial tenglamalar modeli",
+      "aholi prognozi",
+      "karantin tavsiyalari",
+      "hudud CRUD",
+      "ogohlantirish tizimi",
+      "JWT auth"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "innostart-club-interaktiv-prezentatsiya",
+    "title": "InnoStart Club — Interaktiv Prezentatsiya",
+    "category": "Web sahifa",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "InnoStart Club darsi uchun React asosidagi interaktiv web prezentatsiya.",
+    "tech_stack": [
+      "react",
+      "tailwind",
+      "css",
+      "vite"
+    ],
+    "tech_stack_raw": "React 18, Vite, Tailwind CSS 3, CSS Animations",
+    "features": [
+      "9 ta full-screen slayd",
+      "klaviatura navigatsiyasi",
+      "sensorli ekran",
+      "responsive dizayn",
+      "animatsiyalar"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "jarvis-mark-x",
+    "title": "Jarvis Mark X",
+    "category": "Desktop / AI",
+    "platform": "desktop",
+    "description_en": "",
+    "description_uz": "Lokal AI desktop yordamchi: ovozli buyruqlar va intent-action tizimi orqali kompyuterni boshqarish.",
+    "tech_stack": [
+      "python"
+    ],
+    "tech_stack_raw": "Python 3.x, Text-to-speech, Voice recognition, Vosk, Intent matching",
+    "features": [
+      "Ovozli buyruqlar",
+      "dasturlarni boshqarish",
+      "WhatsApp xabar yuborish",
+      "web qidiruv",
+      "ob-havo",
+      "uzoq muddatli xotira"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "kurs-ishi-generator-claude-code-skill",
+    "title": "Kurs Ishi Generator — Claude Code Skill",
+    "category": "Claude Code skill",
+    "platform": "cli",
+    "description_en": "",
+    "description_uz": "Farg'ona Davlat Universiteti uslubiy ko'rsatmasiga mos kurs ishini .docx faylda avtomatik generatsiya qiluvchi Claude Code skill.",
+    "tech_stack": [
+      "python"
+    ],
+    "tech_stack_raw": "Python, python-docx, matplotlib",
+    "features": [
+      "MD'dan DOCX generatsiya",
+      "bo'lim yaratish",
+      "diagrammalar",
+      "kod bloklari",
+      "standart formatlash",
+      "glossariy"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "kutubxona-boshqaruv-tizimi",
+    "title": "Kutubxona Boshqaruv Tizimi",
+    "category": "Desktop / O'quv loyihasi",
+    "platform": "desktop",
+    "description_en": "",
+    "description_uz": "Python OOP va Layered Architecture asosidagi Tkinter GUI bilan to'liq kutubxona boshqaruv tizimi.",
+    "tech_stack": [
+      "python",
+      "sqlite"
+    ],
+    "tech_stack_raw": "Python 3.6+, Tkinter, SQLite3",
+    "features": [
+      "Mualliflar va kitoblar boshqaruvi",
+      "o'quvchilar boshqaruvi",
+      "kitob berish tizimi",
+      "hisobotlar",
+      "qidiruv",
+      "muddati o'tganlar kuzatuvi"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "lessonplanner-bilim-prognozi-platformasi",
+    "title": "LessonPlanner — Bilim Prognozi Platformasi",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Repetitorlar uchun talabalar tayyorgarligini Ebbinghaus unutish egri chizig'i modeli asosida prognoz qiluvchi tizim.",
+    "tech_stack": [
+      "django",
+      "react",
+      "postgres",
+      "vite",
+      "chartjs"
+    ],
+    "tech_stack_raw": "Django 5, DRF, React 19, Vite, Ant Design, Recharts, PostgreSQL, JWT, Zustand",
+    "features": [
+      "Talabalar boshqaruvi",
+      "darslar rejalashtirish",
+      "baholash tizimi",
+      "Ebbinghaus prognozi",
+      "dashboard",
+      "email xabarnomalar"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "lexify",
+    "title": "Lexify",
+    "category": "Mobil ilova",
+    "platform": "mobile",
+    "description_en": "",
+    "description_uz": "Flutter frameworkida yaratilgan leksika/so'z o'rganish mobil ilovasi (minimal hujjatlashtirilgan).",
+    "tech_stack": [
+      "flutter"
+    ],
+    "tech_stack_raw": "Flutter, Dart",
+    "features": [
+      "So'z boshqaruvi va o'rganish funksiyalari (README'da batafsil yoritilmagan)"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "log-tahlili-tizimi",
+    "title": "Log Tahlili Tizimi",
+    "category": "Kurs ishi",
+    "platform": "desktop",
+    "description_en": "",
+    "description_uz": "Log fayllarni tahlil qilish, parsing va vizualizatsiya qiluvchi Tkinter GUI ilovasi (tizim dasturlash kurs loyihasi).",
+    "tech_stack": [
+      "python",
+      "sqlite"
+    ],
+    "tech_stack_raw": "Python 3.x, Tkinter, SQLite, Matplotlib, chardet, regex",
+    "features": [
+      "Log yuklash",
+      "parsing va normalizatsiya",
+      "filtrlash",
+      "anomaliya aniqlash",
+      "vizualizatsiya",
+      "statistika"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "manitora",
+    "title": "Manitora",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "React va TypeScript asosidagi monitoring va analitika platformasi.",
+    "tech_stack": [
+      "react",
+      "ts",
+      "tailwind",
+      "css",
+      "vite"
+    ],
+    "tech_stack_raw": "React, TypeScript, Vite, Tailwind CSS",
+    "features": [
+      "Real-time monitoring",
+      "analytics dashboard",
+      "ogohlantirish tizimi"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "masterlar-app",
+    "title": "Masterlar APP",
+    "category": "Web + Mobil platforma",
+    "platform": "fullstack",
+    "description_en": "",
+    "description_uz": "Go'zallik ustalarini topish va onlayn yozilish platformasi: ustalar profil va portfolio boshqaradi, mijozlar onlayn yoziladi.",
+    "tech_stack": [
+      "django",
+      "flutter",
+      "js",
+      "mysql",
+      "vite"
+    ],
+    "tech_stack_raw": "Django 5.2, DRF, JWT, Vite, Vanilla JS, Flutter 3.x, MySQL, Railway",
+    "features": [
+      "Usta profili",
+      "onlayn yozilish",
+      "portfolio boshqaruvi",
+      "sertifikatlar",
+      "sharhlar tizimi",
+      "moliya boshqaruvi",
+      "obuna rejalari"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "meddose-uz-dori-dozalash-monitoringi",
+    "title": "MedDose UZ — Dori Dozalash Monitoringi",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Kasalxonalar va farmatsevtlar uchun dori vositalarini xavfsiz dozalash va farmakokinetik jarayonlarni monitoring qilish tizimi.",
+    "tech_stack": [
+      "django",
+      "python",
+      "bootstrap",
+      "sqlite",
+      "chartjs"
+    ],
+    "tech_stack_raw": "Django 5.1, Bootstrap 5.3, Chart.js 4.4, SQLite, MathJax, Python 3.13",
+    "features": [
+      "Bir/ikki kamerali model",
+      "Eyler/RK4 usullari",
+      "grafiklar",
+      "MIC/MTC xavf ogohlantirishi",
+      "hisoblash tarixi"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "microsoft-access-mcp-server",
+    "title": "Microsoft Access MCP Server",
+    "category": "Dasturchi vositasi",
+    "platform": "desktop",
+    "description_en": "",
+    "description_uz": "Microsoft Access bazalarini Claude Desktop va MCP klientlari orqali avtomatlashtiruvchi Model Context Protocol serveri.",
+    "tech_stack": [],
+    "tech_stack_raw": ".NET 8.0, C#, ModelContextProtocol, Microsoft Access COM",
+    "features": [
+      "Access bazasiga ulanish",
+      "jadval/so'rov boshqaruvi",
+      "VBA kod o'qish/yozish",
+      "forma va hisobot boshqaruvi",
+      "makros bajarish"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "ostona",
+    "title": "OSTONA",
+    "category": "Mobil ilova",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Hostel/turar joy boshqaruvi uchun multi-platform Flutter ilovasi.",
+    "tech_stack": [
+      "flutter"
+    ],
+    "tech_stack_raw": "Flutter 3.x, Dart 3.x, Provider, Material Design 3",
+    "features": [
+      "Hostel boshqaruvi",
+      "xona bron qilish",
+      "mehmon boshqaruvi",
+      "billing tizimi"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "odatlan-ai-odat-shakllantirish-tizimi",
+    "title": "Odatlan — AI Odat Shakllantirish Tizimi",
+    "category": "BMI (diplom ishi)",
+    "platform": "mobile",
+    "description_en": "",
+    "description_uz": "AI yordamida foydalanuvchilarning kunlik odatlarini monitoring qilish, tahlil qilish va ilmiy tavsiyalar beruvchi mobil ilova.",
+    "tech_stack": [
+      "fastapi",
+      "flutter",
+      "postgres",
+      "docker"
+    ],
+    "tech_stack_raw": "Flutter 3.0+, Riverpod, Dio, GoRouter, FastAPI, PostgreSQL 15+, SQLAlchemy, JWT, Docker",
+    "features": [
+      "Odat yaratish va monitoring",
+      "kunlik check-in",
+      "AI tavsiyalari",
+      "haftalik/oylik analitika",
+      "risk score",
+      "eslatmalar"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "odatlanuz-v1-ekologik-odatlar-platformasi",
+    "title": "OdatlanUz v1 — Ekologik Odatlar Platformasi",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Django asosidagi PWA ekologik odatlar platformasi, OpenAI va OpenWeatherMap integratsiyasi bilan.",
+    "tech_stack": [
+      "django",
+      "python",
+      "tailwind",
+      "postgres",
+      "docker",
+      "css",
+      "openai"
+    ],
+    "tech_stack_raw": "Django, Python 3.11+, PostgreSQL, Tailwind CSS, OpenAI API, OpenWeatherMap, Docker",
+    "features": [
+      "Mobile-first UI",
+      "PWA",
+      "AI vazifa tavsiyalari",
+      "ob-havo va AQI integratsiyasi",
+      "o'zbek tili",
+      "Docker"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "odatlanuz-eco-habit-tracking",
+    "title": "OdatlanUz — Eco-Habit Tracking",
+    "category": "Web platforma",
+    "platform": "fullstack",
+    "description_en": "",
+    "description_uz": "Cross-platform ekologik odatlar kuzatish ilovasi: NestJS backend, Next.js web va React Native mobil.",
+    "tech_stack": [
+      "react",
+      "next",
+      "tailwind",
+      "postgres",
+      "node",
+      "prisma",
+      "css"
+    ],
+    "tech_stack_raw": "NestJS, Next.js 14, React Native, PostgreSQL, Prisma, JWT, Tailwind CSS",
+    "features": [
+      "Habit tracking",
+      "multi-platform",
+      "o'zbekcha interfeys",
+      "PWA",
+      "real-time bildirishnomalar"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "oson-oqi-bot",
+    "title": "Oson O'qi Bot",
+    "category": "Telegram bot",
+    "platform": "bot",
+    "description_en": "",
+    "description_uz": "Gemini API yordamida o'zbek tilida ta'lim materiallari (shpargalka, test, xulosa) yaratuvchi AI Telegram bot, DOCX eksport va to'lov tizimi bilan.",
+    "tech_stack": [
+      "fastapi",
+      "python",
+      "sqlite",
+      "telegram",
+      "openai"
+    ],
+    "tech_stack_raw": "Python 3.12+, aiogram 3.x, FastAPI, Gemini API, SQLite",
+    "features": [
+      "Shpargalka yaratish",
+      "tushuntirish",
+      "xulosa",
+      "test yaratish",
+      "DOCX eksport",
+      "admin panel",
+      "to'lov tizimi",
+      "real-time statistika"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "pismiq-josus-kim-oyini",
+    "title": "Pismiq — Josus Kim? O'yini",
+    "category": "Mobil ilova / O'yin",
+    "platform": "mobile",
+    "description_en": "",
+    "description_uz": "Spyfall o'yinining to'liq Flutter mobil versiyasi: Django backend va Telegram bot integratsiyasi bilan ko'p o'yinchili o'yin.",
+    "tech_stack": [
+      "django",
+      "flutter",
+      "postgres",
+      "telegram"
+    ],
+    "tech_stack_raw": "Flutter 3.x, Django 4.2, DRF, PostgreSQL, Telegram Bot API, SimpleJWT, Riverpod",
+    "features": [
+      "Multi-player o'yin",
+      "Telegram autentifikatsiya",
+      "real-time o'yin boshqaruvi",
+      "xona boshqaruvi",
+      "o'zbekcha lokalizatsiya"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "pulsefit-fitness-ilovasi",
+    "title": "PulseFit — Fitness Ilovasi",
+    "category": "Kurs ishi",
+    "platform": "mobile",
+    "description_en": "",
+    "description_uz": "React Native (Expo) fitness ilovasi: 30+ mashq katalogi, workout tracking, suv/vazn kuzatuvi, statistika va yutuqlar tizimi.",
+    "tech_stack": [
+      "django",
+      "react",
+      "ts",
+      "sqlite"
+    ],
+    "tech_stack_raw": "React Native, Expo SDK 51, TypeScript, Django REST Framework, SQLite, TanStack Query, Zustand, Expo Router",
+    "features": [
+      "Mashq katalogi",
+      "tayyor workout dasturlar",
+      "sessiya tracking",
+      "suv/vazn/qadam kuzatuvi",
+      "taom log",
+      "haftalik statistika",
+      "yutuqlar",
+      "light/dark mavzu"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "realestate-uz-kochmas-mulk-narxlari-prognozi",
+    "title": "RealEstate UZ — Ko'chmas Mulk Narxlari Prognozi",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "O'zbekiston viloyatlarida ko'chmas mulk narxlarini tahlil qilish, kelajakdagi narx o'zgarishini prognozlash va tavsiyalar beruvchi PropTech platforma.",
+    "tech_stack": [
+      "django",
+      "python",
+      "bootstrap",
+      "sqlite",
+      "chartjs"
+    ],
+    "tech_stack_raw": "Python 3.12, Django 5.x, Bootstrap 5.3, Chart.js 4, SQLite, NumPy, WhiteNoise",
+    "features": [
+      "Viloyat bo'yicha narx tahlili",
+      "3/6/12 oylik prognoz",
+      "interaktiv grafiklar",
+      "taqqoslash",
+      "inflyatsiya/valyuta ta'siri",
+      "tavsiyalar"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "restobook-restoran-bron-qilish",
+    "title": "Restobook — Restoran Bron Qilish",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Restoran bron qilish jarayonlarini avtomatlashtiruvchi web ilova: restoranlarni ko'rish, stol bron qilish va bron holatini kuzatish.",
+    "tech_stack": [
+      "django",
+      "python",
+      "bootstrap",
+      "sqlite"
+    ],
+    "tech_stack_raw": "Django, Bootstrap 5.3, SQLite, Pillow, Python 3.10+",
+    "features": [
+      "Restoran katalogi",
+      "stol bron qilish",
+      "bron boshqaruvi",
+      "admin panel",
+      "validatsiya va filtrlash"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "sertifikat-generatsiya-platformasi",
+    "title": "Sertifikat Generatsiya Platformasi",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "CSV fayldan ma'lumotlarni o'qib, PowerPoint shablon asosida sertifikatlarni avtomatik yaratuvchi Flask ilovasi.",
+    "tech_stack": [
+      "flask",
+      "python"
+    ],
+    "tech_stack_raw": "Python 3.7+, Flask, python-pptx",
+    "features": [
+      "CSV yuklash",
+      "PowerPoint shablon asosida generatsiya",
+      "formatni saqlash",
+      "ZIP yuklab olish"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "sheerid-verification-tool",
+    "title": "SheerID Verification Tool",
+    "category": "CLI vosita",
+    "platform": "cli",
+    "description_en": "",
+    "description_uz": "SheerID verification jarayonlarini avtomatlashtiruvchi Python kutubxonasi (Spotify, YouTube, Google One va boshqa xizmatlar uchun).",
+    "tech_stack": [
+      "python"
+    ],
+    "tech_stack_raw": "Python 3.8+, curl_cffi, httpx, Pillow",
+    "features": [
+      "Student/Teacher verification",
+      "hujjat generatsiyasi",
+      "multi-strategy verification",
+      "browser extension"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "shifo-search-klinikalar-qidiruv-boti",
+    "title": "Shifo Search — Klinikalar Qidiruv Boti",
+    "category": "Telegram bot",
+    "platform": "bot",
+    "description_en": "",
+    "description_uz": "Toshkent xususiy klinikalarini Telegram orqali izlash, kataloglashtirish va admin panel orqali boshqarish tizimi.",
+    "tech_stack": [
+      "python",
+      "postgres",
+      "sqlite",
+      "telegram"
+    ],
+    "tech_stack_raw": "Python 3, aiogram, PostgreSQL/SQLite, asyncpg, Railway",
+    "features": [
+      "FSM qidiruv",
+      "inline rejim",
+      "klinika katalogi",
+      "CRUD admin panel",
+      "soft/hard delete",
+      "pagination"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "sign-translate",
+    "title": "Sign Translate",
+    "category": "AI/ML",
+    "platform": "fullstack",
+    "description_en": "",
+    "description_uz": "Imo-ishora tilini real vaqtda tarjima qiluvchi platforma: gapni imo-ishoraga va imo-ishorani matnga tarjima qilish.",
+    "tech_stack": [
+      "python",
+      "ts",
+      "node"
+    ],
+    "tech_stack_raw": "Node.js, TypeScript, Python, MediaPipe, SignWriting, Deep learning",
+    "features": [
+      "Real-time imo-ishora tarjimasi",
+      "video generatsiya",
+      "3D avatar",
+      "skeleton viewer"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "synctalk-real-time-chat",
+    "title": "SyncTalk — Real-time Chat",
+    "category": "Kurs ishi",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Firebase Realtime Database asosidagi real-time chat ilovasi: 1-to-1 va guruh suhbatlar, fayl yuborish, presence tizimi.",
+    "tech_stack": [
+      "react",
+      "ts",
+      "tailwind",
+      "firebase",
+      "css",
+      "vite"
+    ],
+    "tech_stack_raw": "React 19, TypeScript, Vite, Firebase RTDB, Firebase Auth, Firebase Storage, Tailwind CSS, Zustand, Zod",
+    "features": [
+      "Real-time chat",
+      "email/Google OAuth",
+      "fayl/rasm yuborish",
+      "online/offline presence",
+      "'yozmoqda' indikatori",
+      "read receipts",
+      "optimistic UI"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "tahlilchi-ai-marketing-sayti",
+    "title": "Tahlilchi AI — Marketing Sayti",
+    "category": "Web sahifa",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "tahlilchi-ai.uz uchun Next.js asosida yaratilgan marketing/landing sahifasi.",
+    "tech_stack": [
+      "next",
+      "ts",
+      "css"
+    ],
+    "tech_stack_raw": "Next.js, TypeScript, CSS, Vercel",
+    "features": [
+      "Landing page",
+      "gradient vizuallar",
+      "Vercel deployment"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "talabalar-ilovasi-students-app",
+    "title": "Talabalar Ilovasi (Students App)",
+    "category": "Mobil ilova",
+    "platform": "mobile",
+    "description_en": "",
+    "description_uz": "Talabalar ma'lumotlarini boshqarish uchun Flutter mobil ilova: ro'yxatga olish, qidiruv, filtrlash va statistika.",
+    "tech_stack": [
+      "flutter"
+    ],
+    "tech_stack_raw": "Flutter 3.x, Dart 3.x, Provider, Material Design 3",
+    "features": [
+      "Talabalar ro'yxati",
+      "qidiruv va filtrlash",
+      "talaba qo'shish/tahrirlash",
+      "statistika"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "telegram-forwarder-bot",
+    "title": "Telegram Forwarder Bot",
+    "category": "Telegram bot",
+    "platform": "bot",
+    "description_en": "",
+    "description_uz": "Telegram xabarlarini turli chatlar va kanallar o'rtasida avtomatik yo'naltiruvchi Telethon asosidagi bot.",
+    "tech_stack": [
+      "python",
+      "telegram"
+    ],
+    "tech_stack_raw": "Python 3.7+, Telethon, Rich",
+    "features": [
+      "Multi-account",
+      "xabarlarni yo'naltirish",
+      "media yuklash",
+      "user tracking",
+      "doimiy sozlamalar"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "thermohome-smart-home-harorat-monitoringi",
+    "title": "ThermoHome — Smart Home Harorat Monitoringi",
+    "category": "Kurs ishi",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Issiqlik tarqalish tenglamasi asosidagi aqlli uy harorat monitoringi va boshqaruv tizimi, real-time vizualizatsiya bilan.",
+    "tech_stack": [
+      "vue",
+      "sqlite",
+      "node",
+      "express",
+      "sockerio",
+      "prisma",
+      "vite",
+      "chartjs"
+    ],
+    "tech_stack_raw": "Vue.js 3, Vite, Vuetify 3, Pinia, Node.js, Express.js, Socket.io, Prisma ORM, SQLite, JWT, Chart.js",
+    "features": [
+      "Xonalar bo'yicha harorat hisoblash",
+      "heat map vizualizatsiya",
+      "dashboard",
+      "analytics grafiklari",
+      "avtomatlashtirish qoidalari",
+      "real-time Socket.io"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "veb-sayt-monitoring-va-analytics",
+    "title": "Veb-Sayt Monitoring va Analytics",
+    "category": "Kurs ishi",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Veb-saytlar faoliyatini real vaqtda kuzatuvchi full-stack analitika tizimi — Google Analytics'ning o'zbek tilidagi analogi.",
+    "tech_stack": [
+      "django",
+      "react",
+      "ts",
+      "tailwind",
+      "postgres",
+      "sockerio",
+      "css",
+      "vite",
+      "chartjs"
+    ],
+    "tech_stack_raw": "Django 5, Channels 4, React 18, Vite, TypeScript, Tailwind CSS, Recharts, PostgreSQL, ReportLab",
+    "features": [
+      "Yengil JavaScript tracker",
+      "real-time dashboard",
+      "performance metrikalari (LCP",
+      "FCP",
+      "TTFB)",
+      "anomaliya detektori",
+      "PDF/CSV hisobotlar",
+      "WebSocket yangilanish"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "world-monitor",
+    "title": "World Monitor",
+    "category": "Web platforma / AI",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Real-time global intelligence dashboard: AI asosida yangiliklar agregatsiyasi, geosiyosiy monitoring va 3D globus vizualizatsiyasi.",
+    "tech_stack": [
+      "react",
+      "ts",
+      "redis"
+    ],
+    "tech_stack_raw": "TypeScript, React, Tauri, Vercel Edge Functions, deck.gl, MapLibre GL JS, Redis, Groq/OpenRouter/Ollama",
+    "features": [
+      "Interaktiv 3D globus",
+      "36+ data layer",
+      "AI World Brief",
+      "real-time yangiliklar",
+      "prediction markets",
+      "threat intelligence",
+      "desktop ilova"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "yordamchiai",
+    "title": "YordamchiAI",
+    "category": "Mobil ilova",
+    "platform": "mobile",
+    "description_en": "",
+    "description_uz": "Flutter frameworkida yaratilgan AI yordamchi mobil ilova loyihasi (frontend va mobil qismlardan iborat).",
+    "tech_stack": [
+      "flutter"
+    ],
+    "tech_stack_raw": "Flutter, Dart",
+    "features": [
+      "AI yordamchi funksiyalari (README'da batafsil yoritilmagan)"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "yuqori-yuklamali-tizimlar-load-balancing",
+    "title": "Yuqori Yuklamali Tizimlar — Load Balancing",
+    "category": "Kurs ishi",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Yuqori yuklamali tizimlar uchun load balancing va klasterlash: 3x Django instance, Nginx/HAProxy, Prometheus/Grafana monitoring.",
+    "tech_stack": [
+      "django",
+      "react",
+      "ts",
+      "postgres",
+      "docker"
+    ],
+    "tech_stack_raw": "Django 5, DRF, React 18, TypeScript, PostgreSQL, Nginx, HAProxy, Prometheus, Grafana, Docker, Kubernetes, k6, locust",
+    "features": [
+      "Django klaster",
+      "round-robin/least-conn/ip-hash algoritmlari",
+      "Prometheus metrikalar",
+      "Grafana dashboardlar",
+      "yuklama testlari",
+      "auto-scaling"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "webrest-django-rest-jwt",
+    "title": "webREST — Django REST + JWT",
+    "category": "BMI (diplom ishi)",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "REST arxitekturasi va JWT texnologiyasi asosidagi Django tizimi: server-side rendering, stateless JWT REST API, ko'p tilli (UZ/EN/RU) va RBAC.",
+    "tech_stack": [
+      "django",
+      "python",
+      "mysql",
+      "sqlite"
+    ],
+    "tech_stack_raw": "Django 5, Python 3.11+, DRF, SimpleJWT, SQLite/MySQL, Swagger UI",
+    "features": [
+      "JWT REST API",
+      "rolga asoslangan ruxsat (RBAC)",
+      "ko'p tilli interfeys",
+      "profil boshqaruvi",
+      "token rotation blacklist",
+      "rate limiting"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  },
+  {
+    "slug": "webrest-jwt-autentifikatsiya-tizimi-php",
+    "title": "webREST — JWT Autentifikatsiya Tizimi (PHP)",
+    "category": "Web platforma",
+    "platform": "web",
+    "description_en": "",
+    "description_uz": "Sof PHP backend va vanilla JS frontend bilan qurilgan xavfsiz JWT asosidagi autentifikatsiya tizimi, token rotation va 3 tilli interfeys bilan.",
+    "tech_stack": [
+      "js",
+      "mysql",
+      "php",
+      "html",
+      "css"
+    ],
+    "tech_stack_raw": "PHP 8.x, MySQL 8.x, HTML5, CSS3, Vanilla JavaScript ES6+, JWT HS256",
+    "features": [
+      "Ro'yxatdan o'tish va login",
+      "JWT token boshqaruvi",
+      "profil boshqaruvi",
+      "token refresh va rotation",
+      "3 tilli tarjima",
+      "SQL injection va XSS himoyasi"
+    ],
+    "cover_image": null,
+    "screenshots": [],
+    "live_url": "",
+    "github_url": "",
+    "is_featured": false,
+    "order": 100
+  }
+]
