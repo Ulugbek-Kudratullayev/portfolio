@@ -3,7 +3,13 @@
 import { useInView } from "framer-motion";
 import React, { useRef } from "react";
 import { Button } from "../ui/button";
-import { SiGithub, SiGmail, SiLinkedin, SiTelegram } from "react-icons/si";
+import {
+  SiGithub,
+  SiGmail,
+  SiGoogleplay,
+  SiLinkedin,
+  SiTelegram,
+} from "react-icons/si";
 import { config } from "@/data/config";
 import Link from "next/link";
 
@@ -27,6 +33,11 @@ const BUTTONS = [
     name: "Email",
     href: `mailto:${config.email}`,
     icon: <SiGmail size={"24"} color={"#fff"} />,
+  },
+  {
+    name: "Google Play",
+    href: config.social.googlePlay,
+    icon: <SiGoogleplay size={"24"} color={"#fff"} />,
   },
 ];
 

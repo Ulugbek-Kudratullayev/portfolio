@@ -116,7 +116,7 @@ UNFOLD = {
     "SITE_TITLE": "Bekfolio Admin",
     "SITE_HEADER": "Bekfolio",
     "SITE_SUBHEADER": "Portfolio boshqaruv paneli",
-    "SITE_URL": "https://portfolio-ebon-eight-5vvss303xu.vercel.app",
+    "SITE_URL": "https://bekfolio.uz",
     "SITE_SYMBOL": "rocket_launch",
     "SHOW_HISTORY": True,
     "SHOW_VIEW_ON_SITE": True,

@@ -37,6 +37,8 @@ const config = {
     telegram: "https://t.me/bekfdu",
     linkedin: "https://linkedin.com/in/ulugbek-kudratullayev",
     github: "https://github.com/Ulugbek-Kudratullayev",
+    googlePlay:
+      "https://play.google.com/store/apps/dev?id=9139914406945062258",
   },
 };
 export { config };

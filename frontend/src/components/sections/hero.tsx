@@ -11,7 +11,7 @@ import {
 import { usePreloader } from "../preloader";
 import { BlurIn, BoxReveal } from "../reveal-animations";
 import ScrollDownIcon from "../scroll-down-icon";
-import { SiGithub, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiGoogleplay, SiLinkedin } from "react-icons/si";
 import { config } from "@/data/config";
 
 const HeroSection = () => {
@@ -125,6 +125,21 @@ const HeroSection = () => {
                       <SiLinkedin size={24} />
                     </Button>
                   </Link>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <Link
+                        href={config.social.googlePlay}
+                        target="_blank"
+                      >
+                        <Button variant={"outline"}>
+                          <SiGoogleplay size={24} />
+                        </Button>
+                      </Link>
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>My Android apps on Google Play</p>
+                    </TooltipContent>
+                  </Tooltip>
                 </div>
               </div>
             </>
